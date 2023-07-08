@@ -1,14 +1,14 @@
-$foreground: #222222;
-$background: #eeeeee;
-$secondary: gray;
-$tertiary: #dddddd;
-$accent: #3d3cba;
+$foreground: #2e3440; //nord0
+$background: #eceff4; //nord6
+$secondary: #434c5e; //nord2
+$tertiary: #e5e9f0; //nord5
+$accent: #3d78c0;
 
-$foreground-dark: #eeeeee;
-$background-dark: #161616;
-$secondary-dark: #999999;
-$tertiary-dark: #444444;
-$accent-dark: #959bf0;
+$foreground-dark: #eceff4; //nord0
+$background-dark: #2e3440; //nord6
+$secondary-dark: #e5e9f0; //nord5
+$tertiary-dark: #e5e9f0; //nord5
+$accent-dark: #3d78c0;
 
 @mixin light-theme {
     color: $foreground;
