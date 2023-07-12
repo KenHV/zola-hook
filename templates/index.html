@@ -7,6 +7,12 @@
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     {% block extra_head %}
     <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path='apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path='favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ get_url(path='site.webmanifest') }}">
+
     <link rel="preload" as="font" href="/fonts/inter-v12-latin-regular.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="/fonts/inter-v12-latin-600.woff2" type="font/woff2" crossorigin="anonymous">
     {% endblock extra_head %}
