@@ -7,6 +7,8 @@
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     {% block extra_head %}
     <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) }}">
+    <link rel="preload" as="font" href="/fonts/inter-v12-latin-regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="/fonts/inter-v12-latin-600.woff2" type="font/woff2" crossorigin="anonymous">
     {% endblock extra_head %}
     {% block feed_link %}
     {% if config.generate_feed %}
