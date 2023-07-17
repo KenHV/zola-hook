@@ -49,16 +49,21 @@ blockquote {
 
 code {
     padding: 0.1em 0.2em;
-    font-size: 12pt;
 }
 
 pre {
     overflow: auto;
-    padding: 0.3em;
+    padding: 0.5em;
+    border-radius: 8px;
+    font-size: 0.9em;
 
     code {
         padding: 0;
     }
+}
+
+li {
+    padding: 0.2em 0.1em;
 }
 
 .footnote-definition {
