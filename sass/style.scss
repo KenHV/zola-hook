@@ -2,17 +2,17 @@
 @import "fonts";
 @import "theme";
 
-html, body {
-    margin: 0;
-    padding: 0;
+html {
+    font-size: 20px;
 }
 
 body {
-    font-family: Inter, system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
-    font-size: 1.2rem;
-    line-height: 1.54em;
-
-    padding: 5em 25%;
+    font-family: Inter,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 1em;
+    line-height: 1.6em;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5em 0;
 }
 
 .header-links {
@@ -102,13 +102,13 @@ table {
 
 @media all and (max-width: 1200px) {
     body {
-        padding: 3em 15%;
+        padding: 3em 5%;
     }
 }
 
 @media all and (max-width: 800px) {
     body {
         padding: 1em 1em;
-	font-size: 1.125rem;
+	font-size: 0.9em;
     }
 }
